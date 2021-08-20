@@ -23,6 +23,41 @@
   <link rel="stylesheet" href="css/skeleton-light.css">
   <link rel="stylesheet" href="css/brands.css">
 
+  <!-- CSS EXTRA 
+
+<style type="text/css">
+body {
+	background: #222;
+	color: #eee;
+	margin-top: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+a {
+	color: #FFF;
+}
+a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+.thumbnails img {
+	height: 80px;
+	border: 4px solid #555;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+	border: 4px solid #00ccff;
+	cursor:pointer;
+}
+
+.preview img {
+	border: 4px solid #444;
+	padding: 1px;
+	width: 800px;
+}
+</style>
+   <!-- CSS EXTRA 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/avatar.png">
@@ -128,13 +163,39 @@
  
         <br>
         <br>
-        <p>Quieres hacer una pagina como esta? <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a>.</p>
           
       </div>
     </div>
   </div>
 
 <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="gallery" align="center">
+	<h2>Simple Photo Gallery with HTML and JavaScript</h2>
+	<p>Created by <a target="_blank" href="http://html-tuts.com/">HTML-TUTS.com</a>. View full tutorial <a href="http://html-tuts.com/?p=2337" target="_blank">here</a>.</p>
+
+	<br />
+
+	<div class="thumbnails">
+		<img onmouseover="preview.src=img1.src" name="img1" src="images/1.jpg" alt=""/>
+		<img onmouseover="preview.src=img2.src" name="img2" src="images/2.jpg" alt=""/>
+		<img onmouseover="preview.src=img3.src" name="img3" src="images/3.jpg" alt=""/>
+		<img onmouseover="preview.src=img4.src" name="img4" src="images/4.jpg" alt=""/>
+		<img onmouseover="preview.src=img5.src" name="img5" src="images/5.jpg" alt=""/>
+    <img onmouseover="preview.src=img6.src" name="img6" src="images/6.jpg" alt=""/>
+    <img onmouseover="preview.src=img7.src" name="img7" src="images/7.jpg" alt=""/>
+    <img onmouseover="preview.src=img8.src" name="img8" src="images/8.jpg" alt=""/>
+	</div><br/>
+
+	<div class="preview" align="center">
+		<img name="preview" src="images/img1.jpg" alt=""/>
+	</div>
+
+</div>
+        <br>
+        <br>
+        <p>Quieres hacer una pagina como esta? <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a>.</p>
+  
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
